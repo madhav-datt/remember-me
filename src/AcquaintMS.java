@@ -1,7 +1,5 @@
 /**
- *
- * Acquaintance Management System
- * Software Engineering Lab - Assignment 1, Question 2
+ * AcquaintMS.java 
  *
  * Contains main method
  * Displays welcome screen and lets user select from various functionalities
@@ -9,7 +7,8 @@
  * write_to_file - writes objects to file to save session data
  * read_from_file - reads objects from file to start from last session
  *
- * Madhav Datt - 14CS30015
+ * Copyright (C)   2016    Madhav Datt
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
 
