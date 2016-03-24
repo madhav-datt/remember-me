@@ -1,11 +1,9 @@
 /**
- *
+ * Acquaintance.java
  * Class with Acquaintance common fields and their validations
  *
- * Acquaintance Management System
- * Software Engineering Lab - Assignment 1, Question 2
- *
- * Madhav Datt - 14CS30015
+ * Copyright (C)   2016    Madhav Datt
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
 
