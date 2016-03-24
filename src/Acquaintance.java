@@ -25,7 +25,7 @@ class Acquaintance implements Serializable
     protected static final Pattern VALID_EMAIL_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
 
     //RegEx to check mobile number validity (assumed 10 digits, starting with 7, 8 or 9)
-    protected static final Pattern VALID_MOBILE_REGEX = Pattern.compile("^[789][0-9]{9}$");
+    protected static final Pattern VALID_MOBILE_REGEX = Pattern.compile("^[0-9]{10}$");
 
     /**
      * Function to check validity of email id based on RegEx
@@ -52,7 +52,7 @@ class Acquaintance implements Serializable
         Matcher matcher = VALID_MOBILE_REGEX.matcher (mobile_num);
         if (matcher.find () == false)
         {
-            System.out.println ("Invalid mobile number entered!\nPlease enter a valid mobile number (10 digits, starting with a 7, 8 or 9)");
+            System.out.println ("Invalid mobile number entered!\nPlease enter a valid mobile number (10 digits)");
             return false;
         }
 
