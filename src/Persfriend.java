@@ -131,6 +131,6 @@ class Persfriend extends Acquaintance implements Serializable
         SimpleDateFormat formatter = new SimpleDateFormat ("dd/MM/yyyy");
         System.out.format ("%-20s: %25s\n", "Date of Meeting", formatter.format (persfriend_met));
         System.out.format ("%-20s: %25s\n", "Context of Meeting", persfriend_context);
-        System.out.format ("%-20s: %25s\n", "Specific Event", persfriend_specific_event);
+        System.out.format ("%-20s: %25s\n", "Specific Events", persfriend_specific_event);
     }
 }
