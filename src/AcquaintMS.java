@@ -2,7 +2,7 @@
  * AcquaintMS.java 
  *
  * Contains main method
- * Displays welcome screen and lets user select from various functionalities
+ * Displays welcome screen, menu options and lets user select from various functionalities
  *
  * write_to_file - writes objects to file to save session data
  * read_from_file - reads objects from file to start from last session
